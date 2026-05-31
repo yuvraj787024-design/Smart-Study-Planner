@@ -23,7 +23,7 @@ const Login = () => {
 
     try {
       const res = await fetch(
-        'http://localhost:3000/api/auth/login',
+        'https://smart-study-planner-1-lc15.onrender.com/api/auth/login',
         {
           method: 'POST',
           headers: {

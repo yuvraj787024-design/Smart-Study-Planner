@@ -24,7 +24,7 @@ const Register = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/api/auth/register",
+        "https://smart-study-planner-1-lc15.onrender.com/api/auth/register",
         {
           method: "POST",
           headers: {

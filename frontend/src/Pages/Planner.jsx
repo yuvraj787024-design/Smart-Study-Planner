@@ -41,7 +41,7 @@ const Planner = () => {
 
     try {
       const res = await fetch(
-        'http://localhost:3000/api/auth/schedule',
+        'https://smart-study-planner-1-lc15.onrender.com/api/auth/schedule',
         {
           method: 'POST',
           headers: {
