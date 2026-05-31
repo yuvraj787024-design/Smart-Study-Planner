@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 async function connectDB() {
     try{
-    await mongoose.connect('mongodb+srv://yuvraj:fbmChofkFs4dIQk7@ytbackend.0qlosmq.mongodb.net/study_planner');
+    await mongoose.connect('');
     
     console.log("DataBase connected successfully");
 
