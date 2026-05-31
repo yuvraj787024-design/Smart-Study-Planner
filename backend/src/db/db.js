@@ -2,7 +2,11 @@ const mongoose = require('mongoose');
 
 async function connectDB() {
     try{
+<<<<<<< HEAD
     await mongoose.connect('');
+=======
+    await mongoose.connect(process.env.MONGO_URI);
+>>>>>>> 7739497 (Remove database credientls)
     
     console.log("DataBase connected successfully");
 
